@@ -10,7 +10,7 @@ uci:delete('batman-adv', 'bat0')
 uci:section('batman-adv', 'mesh', 'bat0',
 	    {
 		    orig_interval = 5000,
-		    gw_mode = 'client',
+		    gw_mode = 'off',
 		    hop_penalty = 15,
 		    multicast_mode = 0,
 	    }
